@@ -1,0 +1,106 @@
+.main_box1 {
+}
+.main_box2 {
+  margin-left: 120px;
+}
+.create_family {
+  color: #111;
+  font-size: 1.5rem;
+  line-height: 1.33333;
+  letter-spacing: -0.0075rem;
+  font-weight: 700;
+}
+.span {
+  color: #0058a3;
+}
+.main_Flex {
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+.p_components {
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", "Open Sans", system-ui,
+    sans-serif !important;
+}
+.imgae1_left_Side {
+  width: 200px;
+  height: 230px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+}
+.imgae1_Right_Side {
+  width: 200px;
+  height: 280px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+  margin-left: 5px;
+}
+.imgae1_Right_Side:hover {
+  z-index: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: rotateX(150deg);
+}
+.imgae1_left_Side:hover{
+  z-index: 1;
+  transform: rotateX(120deg);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.legend {
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  max-width: 24rem;
+}
+.radio_span {
+  color: #111;
+  font-size: 0.875rem;
+  line-height: 1.71429;
+}
+.input_part_section {
+  border: none;
+  border-bottom: #0058a3;
+}
+.btn_14 {
+  background: rgb(255, 151, 0);
+  border: none;
+  z-index: 1;
+  padding: 10px 25px;
+}
+.btn_14:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #f0094a;
+  background-image: linear-gradient(315deg, #f0094a 0%, #f0094a 74%);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5) 7px 7px 20px 0px
+      rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.btn_14:hover {
+  color: #000;
+}
+.btn_14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn_14:active {
+  top: 2px;
+}
