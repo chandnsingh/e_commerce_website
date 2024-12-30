@@ -9,7 +9,7 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import logo from "../../project.png";
+import logo from "../../project.jpg";
 
 const initial = {
   Name: "",
@@ -36,7 +36,7 @@ function AdminLogin() {
     <>
       <Box bg="grey" p={4} color="white" height="100px">
         <Center>
-          <Image src={logo} boxSize="70px" width="15%" alt="" />
+          <Image src={logo} boxSize="72px" width="16%" alt="" />
         </Center>
       </Box>
       <Flex

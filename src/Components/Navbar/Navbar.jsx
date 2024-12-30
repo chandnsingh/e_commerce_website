@@ -18,7 +18,6 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
-  Stack,
   Text,
   useDisclosure,
   VStack,
@@ -41,6 +40,7 @@ import axios from "axios";
 
 import { useContext } from "react";
 import { AuthContext } from "../../Routes/AuthContext";
+import logo from "../../project.jpg"
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

@@ -15,7 +15,7 @@ import {
   Center,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import logo from "../../project.png";
+import logo from "../../project.jpg";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useRef } from "react";
 
@@ -53,7 +53,7 @@ const AdminNavbar = () => {
                     alignItems="center"
                     margin="20px">
                     <Image
-                      src={logo}
+                      src=""
                       alt=""
                       width={{ base: "35%", sm: "30%", mg: "40%", lg: "30%" }}
                       height={{ base: "65px", sm: "70px", lg: "120px" }}

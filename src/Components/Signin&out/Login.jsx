@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Routes/AuthContext";
+import loginlogo from "../../project.jpg"
 
 const initialValue = {
   emailEntered: "",
@@ -73,15 +74,10 @@ const Login = () => {
         <div className={styles.toppart}>
           <div className={styles.herotext}>
             <h1>
-              <img
-                className={styles.logo}
-                src="https://user-images.githubusercontent.com/106021674/212925458-e9515ee6-5aaa-4c72-8145-545ca8912606.jpg"
-                alt="Logo"
-              />
               Login Page
             </h1>
             <p>
-              Faboulous Find is a clone of IKEA which is Swedish multinational
+             Swedish multinational
               conglomerate based in the Netherlands that designs and sells
               ready-to-assemble furniture, kitchen appliances, decoration, home
               accessories, and various other goods and home services. Started in
@@ -94,7 +90,7 @@ const Login = () => {
         <div className={styles.bottompart}>
           <div className={styles.imgpart}>
             <img
-              src="https://user-images.githubusercontent.com/106021674/212918713-93369401-cf6f-4b17-8789-9ee966e2f2bd.jpg"
+              src={loginlogo}
               alt="file_name"
               className="heroimg"
             />

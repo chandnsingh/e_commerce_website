@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import style from "../../styles/FrontPage.module.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { IoIosArrowUp } from "react-icons/io";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import AOS from "aos";
@@ -26,9 +25,7 @@ const FrontPage = () => {
   return (
     <div className={style.mainContainer}>
       <div className={style.frontNavbar}>
-        <div className={style.frontNavbarHeading}>IKEA</div>
-        <div className={style.frontNavbarLogo}>
-          <GiHamburgerMenu />
+        <div className={style.frontNavbarHeading}>IKEA: Innovation, style, and sustainability for every home.
         </div>
       </div>
 
@@ -431,22 +428,22 @@ const FrontPage = () => {
           {" "}
           <div>
             <h2>
-              International sales <span style={{ color: "grey" }}>|</span>
+              International sales <span style={{ color: "black" }}>|</span>
             </h2>
           </div>
           <div>
             <h2>
-              About Fabulous Finds <span style={{ color: "grey" }}>|</span>
+              About Fabulous Finds <span style={{ color: "black" }}>|</span>
             </h2>
           </div>
           <div>
             <h2>
-            Fabulous Finds Museum <span style={{ color: "grey" }}>|</span>
+            Fabulous Finds Museum <span style={{ color: "black" }}>|</span>
             </h2>
           </div>
           <div>
             <h2>
-              Work with us <span style={{ color: "grey" }}>|</span>
+              Work with us <span style={{ color: "black" }}>|</span>
             </h2>
           </div>
           <div>
@@ -459,7 +456,7 @@ const FrontPage = () => {
             <h1>Cookie information | Privacy statement</h1>
           </div>
           <div>
-            <p>© Inter Fabulous Finds Systems B.V. 1999 - 2023</p>
+            <p>© Inter Fabulous Finds Systems B.V. 1999 - 2024</p>
           </div>
           <div>
             <h2>Co-worker login</h2>

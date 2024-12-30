@@ -3,7 +3,6 @@ import {
   Box,
   Button,
   Heading,
-  HStack,
   Image,
   Input,
   InputGroup,
@@ -104,7 +103,7 @@ const DashBoard = () => {
 
       <Box w={{ base: "90%", lg: "82%" }} margin="auto">
         <Stack gap={2} mt={10} textAlign="left" mb={10}>
-          <Heading>Hej! Welcome back</Heading>
+          <Heading>Hey! Welcome to IKEA</Heading>
           <Text>
             Join IKEA Family to get inspired, claim discounts, and receive
             rewards.
