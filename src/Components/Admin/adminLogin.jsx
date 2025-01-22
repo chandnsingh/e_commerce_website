@@ -25,7 +25,7 @@ function AdminLogin() {
     setAdmin({ ...admin, [name]: value });
   };
   const handleClick = () => {
-    if (admin.Name === "admins" && admin.password === "admins") {
+    if (admin.Name === "admin" && admin.password === "admin") {
       navigate("/AdminDash");
     } else {
       alert("You are not Admin");
